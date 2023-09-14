@@ -1,4 +1,4 @@
-# Mpdule template for ntscli
+# Module template for ntscli
 
 This module is an expressjs template for Node.js TypeScript project.
 
