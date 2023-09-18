@@ -5,7 +5,7 @@ This module contains Express web framework template for Node.js TypeScript proje
 It contains:
 - Example routes
 - Default index folder
-- API class with predefiend options for session cookies, appContext, upload file
+- API class with predefined options for session cookies, appContext, upload file
 
 Module can be added to the project with ntscli:
 ```

@@ -46,6 +46,7 @@ export default class Api {
      */
     this.router.post("/call", async function (req: any, res) {
       try {
+        const appContext: AppContext = req.appContext;
         res.send("OK");
       } catch (error) {
         res.status(400).send("Error");
