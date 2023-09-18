@@ -60,7 +60,7 @@ export default class Api {
      * Upload files
      */
     this.router.post(
-      "/controller/upload",
+      "/upload",
       this.upload.single("file"),
       function (req: any, res) {
         const appContext: AppContext = req.appContext;
